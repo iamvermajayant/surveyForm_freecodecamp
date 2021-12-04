@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins';
+    line-height: 1.6rem;
+    background-color: #575791;
+    color: #fff;
+}
+
+#container{
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: 0.6rem;
+}
+
+#title{
+    font-size: 7vh;
+    text-align: center;
+    line-height: 1.2;
+    padding : 1rem;
+}
+
+#description{
+    font-size: 1.3rem;
+    text-align: center;
+    padding : 0.3rem;
+    margin-bottom: 2rem;
+}
+
+#survey-form{
+    background-color: #353558;
+    padding: 3rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#form-group{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+#form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#radio-selector,
+#favorite-selector,
+#improved-selector,
+#comments,
+#submit {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#comments {
+    height: 10rem;
+    font-size: 1.1rem;
+    border-radius: 12px;
+}
+
+#submit {
+    border-radius: 8px;
+    background-color: #37AF65;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
